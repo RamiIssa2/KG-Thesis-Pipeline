@@ -1,0 +1,41 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Airflow
+airflow/logs/
+
+# MinIO generated data
+minio/data/
+
+# Pipeline generated outputs
+pipeline/
+
+# Old Preprocessing
+old_preprocessing/
+
+# Datasets
+datasets/GenWiki/
+datasets/TekGen/
+datasets/WebNLG/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
